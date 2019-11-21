@@ -1,0 +1,57 @@
+package II;
+
+import java.util.ArrayList;
+
+import org.bukkit.Location;
+import org.bukkit.entity.Entity;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import net.minecraft.server.v1_8_R3.NBTTagCompound;
+
+public class IIII implements Listener {
+	
+	
+	
+	
+	
+	public static Entity Entit;
+	public static Object obj;
+	
+	public static double s = 0;
+	public static String st = "xxxx";
+	
+	NBTTagCompound ts = new NBTTagCompound();
+	Entity bukkitEntity;
+	
+	public static Location El;
+	
+	public static ArrayList<Integer> yes =  new ArrayList<Integer>();
+	
+	
+	
+	
+	
+
+	
+	
+	public void EDE(EntityDamageByEntityEvent e) {
+		
+		e.setDamage(s);
+		
+		Entit = e.getEntity();
+		int a = Entit.getEntityId();
+		El = Entit.getLocation();
+		yes.add(a);
+		
+		
+		
+	
+		
+	}
+		
+		
+		
+
+
+
+}
