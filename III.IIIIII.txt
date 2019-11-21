@@ -1,0 +1,67 @@
+package III;
+
+import org.bukkit.Bukkit;
+import org.bukkit.Chunk;
+import org.bukkit.entity.Entity;
+import org.bukkit.event.Listener;
+import org.bukkit.event.world.ChunkLoadEvent;
+
+import net.md_5.bungee.api.ChatColor;
+
+
+public class IIIIII implements Listener {
+	
+	public static Chunk OCLC;
+	
+	
+	public void OCL(ChunkLoadEvent Cle) {
+		
+		OCLC = Cle.getChunk();
+		
+		if (OCLC.equals(III.IIII.psc)) {
+			
+			
+			 Entity[] Ent = Cle.getChunk().getEntities();
+			 
+			 if (Ent.equals(II.IIII.Entit)) {
+				 
+				 
+				 int chck = II.IIII.Entit.getEntityId();
+				 
+				 //burdaki ibare sadece kontrol amaçlý :D
+				 
+				 if(II.IIII.yes.contains(chck)) {
+					 
+					 Bukkit.broadcastMessage(ChatColor.RED + "Entity Found");
+					 
+					 
+					 
+				 }
+				 
+				 
+				 
+				 
+				 
+			 }
+			
+		
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

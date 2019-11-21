@@ -1,0 +1,13 @@
+package III;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class IIIII extends JavaPlugin {
+	
+	
+	
+	public void onEnable() {
+		getServer().getPluginManager().registerEvents(new III.IIII(), this);
+	}
+
+}
